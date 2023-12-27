@@ -1,0 +1,38 @@
+.home-main-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  padding-top: 85px;
+  padding-left: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-main-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    min-height: 150vh;
+  }
+}
+.job-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 55px;
+  width: 40%;
+  letter-spacing: 2px;
+}
+.para {
+  color: white;
+  width: 35%;
+  padding-top: 25px;
+}
+.find-btn {
+  background-color: #6366f1;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 45px;
+  cursor: pointer;
+}
